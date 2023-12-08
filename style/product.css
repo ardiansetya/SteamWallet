@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    width: 18rem;
+}
+
+
+.card-color{
+    background: linear-gradient(45deg,#1c1b20, #262232);
+    border-radius: 40px;
+
+}
+
+@media screen and (max-width:768px){
+    
+}

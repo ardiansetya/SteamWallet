@@ -5,13 +5,14 @@
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background-color: black;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #323040, #1c1b20); 
 }
 
 .logo {
-    width: 20%;
+    width: 180px;
+    padding-top: 15px;
+    padding-left: 10px;
     cursor: pointer;
 }
 
@@ -32,5 +33,23 @@ body {
 }
 
 .btn-dc {
-    font-size: 60px;
+    font-size: 4rem;
+    background-color: #806cf5;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+
+
+@media screen and (max-width: 768px) {
+    .btn-dc {
+        font-size: 2em; 
+    }
+}
+@media (max-width: 992px) {
+    .img-steam {
+        width: 30%; 
+    }
 }
