@@ -8,3 +8,15 @@ signUpBtnLink.addEventListener('click', () => {
 signInBtnLink.addEventListener('click', () => {
     wrapper.classList.toggle('active'); 
 })
+
+// Ambil elemen-elemen yang diperlukan
+const toggleCartBtn = document.querySelector('.toggle-cart');
+const cartContent = document.querySelector('.cart-content');
+
+// Tambahkan event listener untuk tombol toggle
+toggleCartBtn.addEventListener('click', function () {
+    cartContent.classList.toggle('active'); // Tambahkan atau hilangkan kelas 'show'
+});
+// toggleCartBtn.addEventListener('click', function () {
+//     cartContent.classList.remove('active'); // Tambahkan atau hilangkan kelas 'show'
+// });
