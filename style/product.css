@@ -11,7 +11,7 @@
 .cart-content {
     position: fixed;
     top: 0;
-    right: -100%;
+    right: -105%;
     background-color: #fff;
     width: 25rem;
     height: 100vh;
